@@ -1,0 +1,104 @@
+h1{
+    border: 10px groove blue;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+.ContenedorNombreFoto  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Objetivo{
+    font-family: 'Labrada', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#Nombre{
+    font-family: 'Dancing Script', cursive;
+    text-decoration:none;
+}
+
+
+.DatosContacto{
+    font-family: 'Labrada', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.ExperienciaLaboral, .Educacion, .Idiomas, .ConocimientosAptitudes{
+    margin-left: 60px;
+    font-family: 'Labrada', serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left; 
+}
+
+
+
+body{
+    background-color:lightgray;
+    color: maroon;
+}
+
+/**
+body{
+    background-color: black;
+    color: white;
+}
+*/
+
+h2{
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-variant: small-caps;
+}
+
+h3{
+    
+    text-decoration: overline solid rgb(68, 68, 68);
+}
+
+h4{
+    text-decoration: underline solid rgb(68, 68, 68);
+}
